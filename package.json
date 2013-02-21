@@ -1,0 +1,8 @@
+{
+  "main": "bean.js",
+  "volo": {
+    "dependencies": {
+      "bean-lib": "fat/bean"
+    }
+  }
+}
