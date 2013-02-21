@@ -11,6 +11,8 @@
 
 define(['amdquery', 'bean-lib'], function($, bean) {
 
+  var methodObj = {};
+
   // apply the given bean function over each item in the element
   // array given by the first argument to amdquery
   // effectively bean.on([elArray], ...) to bean.on(elNode, ...);
