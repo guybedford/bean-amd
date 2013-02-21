@@ -37,7 +37,7 @@ define(['amdquery', 'bean-lib'], function($, bean) {
     methodObj[methods[i]] = beanApply(methods[i]);
 
   // events to create shortcuts for
-  var events = ['blur', 'change', 'click', 'dblclick', 'error', 'focus' 'focusin', 'focusout', 'keydown', 'keypress', 'keyup', 'load', 'mousedown', 'mouseenter', 'mouseleave', 'mouseout', 'mouseover', 'mouseup', 'mousemove', 'resize', 'scroll', 'select', 'submit', 'unload'];
+  var events = ['blur', 'change', 'click', 'dblclick', 'error', 'focus', 'focusin', 'focusout', 'keydown', 'keypress', 'keyup', 'load', 'mousedown', 'mouseenter', 'mouseleave', 'mouseout', 'mouseover', 'mouseup', 'mousemove', 'resize', 'scroll', 'select', 'submit', 'unload'];
   for (var i = 0; i < events.length; i++)
     methodObj[methods[i]] = beanApply('on', events[i]);
 
