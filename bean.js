@@ -11,7 +11,7 @@
 
 define(['amdquery', 'bean-lib'], function($, bean) {
 
-  var methodObj = {};
+  var methodObj = { prototype: {} };
 
   // apply the given bean function over each item in the element
   // array given by the first argument to amdquery
